@@ -1,6 +1,7 @@
 import { Button } from '@material-ui/core'
 import React from 'react'
 import "./SearchPage.css"
+import SearchResult from './SearchResult/SearchResult'
 
 function SearchPage() {
     return (
@@ -23,6 +24,7 @@ function SearchPage() {
                 <Button variant="outlined" >
                     More filters
                 </Button>
+                <SearchResult />
             </div>
         </div>
     )
