@@ -1,24 +1,22 @@
-import './App.css';
-import Header from './Components/Header/Header';
-import Home from './Components/Home/Home';
+import "./App.css";
+import Header from "./Components/Header/Header";
+import Home from "./Components/Home/Home";
 
 function App() {
   return (
     <div className="app">
       <Header />
-     <Home />
+      <Home />
 
-     
+      {/* Banner */}
 
-     {/* Banner */}
+      {/* Cards */}
 
-     {/* Cards */}
+      {/* Footer */}
 
-     {/* Footer */}
+      {/* SearchPage */}
 
-     {/* SearchPage */}
-
-     {/* .... */}
+      {/* .... */}
     </div>
   );
 }
